@@ -58,13 +58,13 @@ This repository contains five different tools, each designed for a specific purp
    ```
 4. navigate to the tool’s folder:
    ```bash
-   cd  image_encryption.py
+   cd  image_cipher.py
    ```
 
 ### Usage     
 - Run the tool by executing:
   ```bash
-  python3 image_encryption.py
+  python3 image_cipher.py
   ```
 
 # Author
