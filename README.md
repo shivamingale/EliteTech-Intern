@@ -6,6 +6,7 @@ This repository contains five different tools, each designed for a specific purp
 
 1. **Tool 1: Caesar Cipher Encryptor and Decryptor**
 2. **Tool 2: Image Encryption and Decryption Tool**
+3. **Tool 3: Password Strength Checker**
 
 
 ### Tool 1: Caesar Cipher Encryptor and Decryptor
@@ -58,13 +59,37 @@ This repository contains five different tools, each designed for a specific purp
    ```
 4. navigate to the tool’s folder:
    ```bash
-   cd  image_cipher.py
+   cd EliteTech-Intern
    ```
 
 ### Usage     
 - Run the tool by executing:
   ```bash
   python3 image_cipher.py
+  ```
+
+### Tool 3: Password Strength Checker
+
+**Main Features**:
+- Strength Evaluation: Rates passwords as "Weak," "Moderate," "Strong," or "Very Strong" based on complexity.
+- Customizable Criteria: Ensures the presence of uppercase, lowercase, digits, and special characters.
+- Detailed Feedback: Suggests ways to improve password strength.
+- User-Friendly Interface: Simple command-line prompts.
+
+**Installation**:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shivamingale/EliteTech-Intern.git
+   ```
+2. Navigate to the repository directory:
+   ```bash
+   cd EliteTech-Intern
+   ```
+
+### Usage
+- To run the Password Strength Checker:
+  ```bash
+  python3 password_strength_checker.py
   ```
 
 # Author
