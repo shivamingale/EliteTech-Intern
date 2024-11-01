@@ -8,6 +8,7 @@ This repository contains five different tools, each designed for a specific purp
 2. **Tool 2: Image Encryption and Decryption Tool**
 3. **Tool 3: Password Strength Checker**
 4. **Tool 4: Kelogger Tool**
+5. **Tool 5: Packet Sniffer and Network Analyzer**
 
 
 ### Tool 1: Caesar Cipher Encryptor and Decryptor
@@ -125,6 +126,38 @@ This repository contains five different tools, each designed for a specific purp
 - To start logging keystrokes, run the script with:
   ```bash
   python3 keylogger.py
+  ```
+
+### Tool 5: Packet Sniffer and Network Analyzer  
+
+**Main Features**:
+- Real-time packet capture and analysis.
+- Displays source and destination IPs.
+- Identifies protocol types (TCP, UDP, etc.).
+- Provides a snapshot of the packet payload.
+
+**Installation**:
+1. Install Python (if not already installed):
+   ```bash
+   python3 --version
+   ```
+2. Install scapy Library:
+   ```bash
+   pip3 install scapy
+   ```
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/shivamingale/EliteTech-Intern.git
+   ```
+4. Navigate to the repository directory:
+   ```bash
+   cd EliteTech-Intern
+   ```
+
+### Usage
+- Packet sniffing requires root privileges, so run the script with sudo:
+  ```bash
+  sudo python3 packet_sniffer.py
   ```
 
 # Author
